@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+}
+
+.container {
+  width: 1190px;
+  margin:  0 auto;
+}
+
+h5{
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0-15px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 34px 0;
+}
+.col-4{
+    width: 33.33%;
+    padding: 15px;
+}.col-6{
+    width: 50%;
+    padding: 15px;
+}
+.col-8{
+    width:66.66% ;
+    padding: 15px;
+}
+.box-button{
+    background-color:  #4A90E2;
+    border-radius: 3px;
+    padding: 4px 12px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: -23px;
+    transition: 0.6s;
+}
+.box:hover .box-button{
+    top: 30px;
+    left: 22px;
+}
+
+
+.nav a{
+    color: white;
+    text-transform: capitalize;
+
+}
+ nav{
+    display: flex;
+    gap: 40px;
+ }
+.header-button{
+    color: transparent;
+    border: none;
+}
+.box{
+    height: 100%;
+    position: relative;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   
+}
+.inner-box{
+    position: absolute;
+    left: 22px;
+    bottom: 23px;
+}
+.inner-box p{
+    color: white;
+    font-weight: 400;
+}
+
+.section-second{
+    padding: 20px;
+}
+.col-12{
+    width: 100%;
+    padding: 15px;
+}
+.box-home{
+    height: 100%;
+    position: relative;
+}
+
+.inner-home{
+    background-color: #fff;
+    box-shadow: 0px 5px 22px 7px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom:-90px;
+    height: 250px;
+    padding: 35px 30px;
+    border-radius: 10px;
+}
+.inner-home button{
+    background-color: #4A90E2;
+    border: none;
+    border-radius: 3px;
+    top: 30px;
+    left: 30px;
+}
+
+.inner-home p{
+  padding: 20px;
+}
+.inner-home h3{
+    padding: 25px;
+    font-size: 100;
+}
+.inner-home h6{
+    padding: 15px;
+}
+.section-second{
+    padding-bottom: 150px;
+}
+.section-third{
+  padding-bottom: 150px;
+}
+      
+.section-fourth {
+   padding-bottom: 150px;
+}
+.section-fifth{
+    padding-bottom: 150px;
+}
+.section-sixth{
+    padding-bottom: 150px;
+}
+.section-seventh{
+    padding-bottom: 150px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 15px;
+
+}
+.june{
+    padding: 15px;
+}
+.col-3 button{
+   background-color: #4A90E2;
+   color: #fff;
+   padding: 2px 18px;
+   border-radius: 3px;
+   border: none;
+   position: absolute;
+   
+}
+.box-bmw{
+  position: relative;
+ 
+    
+}
+.section-seventh h2{
+    padding: 15px;
+}
+.section-eighth{
+  
+    height: 500px;
+    background-color:#171717;
+    padding: 62px 45px;
+}
+.section-eighth p{
+    color: #fff;
+    margin: 10px 0;
+   padding: 30px 0;
+
+}
+.box-eighth{
+    color: #fff;
+  
+}
+.box-eighth h1{ 
+   padding: 30px 0;
+
+}
+.section-eighth{
+    color: #fff;
+    padding: 25px;
+}
+/* .col-4 { 
+    
+} */
+
+    
+
+.box-car{
+    display: flex;
+    margin: 15px;
+
+}
+.box-car h6{
+    font-size: 14px;
+    margin: 0 22px;
+}
+
+
+input{
+    background-color: #373737;
+    border-radius: 3px;
+    color: #fff;
+    width: 270px;
+    height: 50px;
+    margin: 20px;
+}
+.section-eighth button{
+    background-color: #373737;
+    border-radius: 3px;
+    width: 270px;
+    height: 50px;
+    margin: 20px;
+    color: #fff;
+
+}
+
+   
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 34px 0;
+    color: #fff;
+    display: flex;
+
+}
+.nav-footer a{
+    color: #fff;
+ 
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
